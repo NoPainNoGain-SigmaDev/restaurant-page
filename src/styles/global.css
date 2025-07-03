@@ -73,6 +73,6 @@ footer{
     font-size: 1.6rem;
     overflow-y: visible;
 }
-footer a{
+a{
     color: var(--color-accent);
 }

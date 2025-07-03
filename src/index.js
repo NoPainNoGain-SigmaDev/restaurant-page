@@ -2,6 +2,7 @@ import "./styles/global.css";
 import { clearDOM } from "./modules/dom-control";
 import { loadHome } from "./modules/home";
 import { loadMenu } from "./modules/menu";
+import { loadAbout } from "./modules/about";
 
 const homeButton = document.getElementById("home-btn");
 const menuButton = document.getElementById("menu-btn");
@@ -17,7 +18,7 @@ menuButton.addEventListener("click", ()=>{
     clearDOM();
     loadMenu();
 });
-// aboutButton.addEventListener("click", ()=>{
-//     clearDOM();
-//     console.log("MENU");
-// });
+aboutButton.addEventListener("click", ()=>{
+   clearDOM();
+   loadAbout();
+});
