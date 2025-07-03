@@ -1,4 +1,5 @@
 //load home module
+import "../styles/home.css";
 import { createElement, appendElement } from "./dom-control.js";
 
 export function loadHome() {

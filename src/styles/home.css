@@ -1,0 +1,56 @@
+.main-container{
+    width: 60%;
+    min-height: 65vh;
+    
+    max-width: 1280px;
+    margin: 5rem auto 0 auto;
+    background-color: var(--color-secondary);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.side-img{
+    width: 40%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background-image: url("https://delicious-in-dungeon.com/assets/top/vis3.webp?v2");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-content{
+    width: 60%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main-content h3{
+    font-family: "Roboto Slab", sans-serif;
+    color: var(--color-accent);
+    font-size: 4rem;
+    line-height: 1;
+}
+.main-content h3:nth-of-type(2){
+    text-align: center;
+}
+
+.main-content p{
+    color: var(--color-text);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.order{
+    width: 180px;
+    height: 5rem;
+    border: none;
+    background-color: var(--color-accent);
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-size: 1.8rem;
+    border-radius: 20px;
+}

@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles/global.css";
 import { clearDOM } from "./modules/dom-control";
 import { loadHome } from "./modules/home";
 import { loadMenu } from "./modules/menu";
@@ -13,10 +13,10 @@ homeButton.addEventListener("click", ()=>{
     clearDOM();
     loadHome();
 });
-// menuButton.addEventListener("click", ()=>{
-//     clearDOM();
-//     loadMenu();
-// });
+menuButton.addEventListener("click", ()=>{
+    clearDOM();
+    loadMenu();
+});
 // aboutButton.addEventListener("click", ()=>{
 //     clearDOM();
 //     console.log("MENU");
